@@ -4,14 +4,13 @@ import java.util.Scanner;
 
 public class CustomScanner {
     public static void main(String[] args) {
-        Scanner scannerImie = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj swoje imie");
-        String name = scannerImie.nextLine();
+        String name = scanner.nextLine();
         System.out.println("imie: " + name);
 
-        Scanner scannerLiczba = new Scanner(System.in);
         System.out.println("Podaj pierwsza liczbe: ");
-        int firstNumber = scannerLiczba.nextInt();
+        int firstNumber = scanner.nextInt();
         System.out.println("Kwadrat tej liczby to: " + firstNumber * firstNumber);
 
     }
