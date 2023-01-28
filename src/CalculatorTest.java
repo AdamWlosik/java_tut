@@ -8,18 +8,12 @@ public class CalculatorTest {
         System.out.println("Podaj druga libcze: ");
         float secondNumber = scanner.nextInt();
 
-        float addition = firstNumber + secondNumber;
-        float subtraction = firstNumber - secondNumber;
-        float multiplication = firstNumber * secondNumber;
-        float division = firstNumber / secondNumber;
-        float mod = secondNumber % firstNumber;
-
-        System.out.println("Wynik dodawania " + addition);
-        System.out.println("Wynike odejmowania " + subtraction);
-        System.out.println("Wynik mnozenia " + multiplication);
-        System.out.println("Wynik dzielenia " + division);
-        System.out.println("Reszta z dzielenia " + mod);
-
+        Calculator test = new Calculator();
+        System.out.println("Wynik dodawania: " + test.addition(firstNumber, secondNumber));
+        System.out.println("Wynik odejmowania: " + test.subtraction(firstNumber, secondNumber));
+        System.out.println("Wynik mnozenia: " + test.multiplication(firstNumber, secondNumber));
+        System.out.println("Wynik dzielenia: " + test.division(firstNumber, secondNumber));
+        System.out.println("Reszta z dzielenia: " + test.modulo(firstNumber, secondNumber));
 
     }
 }
