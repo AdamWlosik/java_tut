@@ -6,8 +6,10 @@ public class AgeChecker {
         System.out.println("Podaj wiek: ");
         int age = scanner.nextInt();
 
-        if (age < 18){
-            System.out.println("Wiek mniejszy niz 18");
+        if (age < 18) {
+            System.out.println("Nie mozesz kupic alko");
+        } else {
+            System.out.println("Dziekuje za zakup");
         }
 
     }
