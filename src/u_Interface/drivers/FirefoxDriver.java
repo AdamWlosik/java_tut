@@ -1,4 +1,4 @@
-package u_Interface.zadanie;
+package u_Interface.drivers;
 
 public class FirefoxDriver implements WebDriver{
     @Override

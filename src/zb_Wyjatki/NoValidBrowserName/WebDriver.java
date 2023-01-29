@@ -1,4 +1,4 @@
-package u_Interface.zadanie;
+package zb_Wyjatki.NoValidBrowserName;
 
 public interface WebDriver {
 

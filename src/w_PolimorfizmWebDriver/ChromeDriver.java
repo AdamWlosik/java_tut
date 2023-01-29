@@ -1,6 +1,6 @@
-package u_Interface.zadanie;
+package w_PolimorfizmWebDriver;
 
-public class ChromeDriver implements WebDriver{
+public class ChromeDriver implements WebDriver {
     @Override
     public void get() {
         System.out.println("Otwieram przegladarke za pomoca Chrome");
