@@ -1,4 +1,4 @@
-package l_Klasy_Metody;
+package m_Konstruktory;
 
 public class Auto {
 
@@ -6,6 +6,16 @@ public class Auto {
     public String model;
     public Integer rok;
     public Integer przebieg;
+
+    public Auto() {
+
+    }
+    public Auto(String marka, String model, Integer rok, Integer przebieg) {
+        this.marka = marka;
+        this.model = model;
+        this.rok = rok;
+        this.przebieg = przebieg;
+    }
 
 
     public void jedz() {
