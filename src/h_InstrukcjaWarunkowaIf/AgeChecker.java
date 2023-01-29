@@ -1,3 +1,5 @@
+package h_InstrukcjaWarunkowaIf;
+
 import java.util.Scanner;
 
 public class AgeChecker {

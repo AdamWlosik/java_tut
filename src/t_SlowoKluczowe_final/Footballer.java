@@ -1,4 +1,5 @@
-package o_Dziedziczenie;
+package t_SlowoKluczowe_final;
+
 
 public class Footballer extends Person {
 
@@ -8,6 +9,10 @@ public class Footballer extends Person {
         super(name, age);
         this.footballClub = footballClub;
     }
+    // nie mo¿emy nadpisaæ metody, która w klasie rodzica jest oznaczona final
+    /*public void eat() {
+        System.out.println("nadpisana medota eat w klasie podrzednej");
+    }*/
 
     public void playFootball() {
         System.out.println("I am playing football for " + footballClub);

@@ -1,4 +1,4 @@
-package o_Dziedziczenie;
+package o_Dziedziczenie_SlowoKluczowe_super;
 
 public class Person {
 
@@ -11,10 +11,10 @@ public class Person {
     }
 
     public void eat() {
-        System.out.println("I like pizza");
+        System.out.println("eat z classy g³ównej");
     }
 
     public void walk() {
-        System.out.println("I like walking");
+        System.out.println("walk z classy g³ównej");
     }
 }
